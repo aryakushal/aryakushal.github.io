@@ -1,0 +1,5 @@
+<ul>
+{% for king in theNorth %}
+<li><a href="{% url 'detail' king.id %}"> {{ king.name }} </a></li>
+{% endfor %}
+</ul>
